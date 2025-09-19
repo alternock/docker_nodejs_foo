@@ -6,6 +6,7 @@ app.get('/',      (req, res) => res.send('Hola root!'));
 app.get('/ping',  (req, res) => res.send('pong'));
 app.get('/echo', (req, res) => res.send('Simple Express multi-stage API'));
 app.get('/pong', (req, res) => res.send('ping'));
+app.get('/pang', (req, res) => res.send('pang'));
 
 app.listen(port, () => {
   console.log(`Servidor en http://localhost:${port}`);
